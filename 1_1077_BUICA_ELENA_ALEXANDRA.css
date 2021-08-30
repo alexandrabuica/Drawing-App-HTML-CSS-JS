@@ -1,0 +1,50 @@
+/*customizare container canvas-uri*/
+.container{ 
+	display: block;
+	position: absolute;
+	top:45%;
+	left:50%;
+    width: 400px;
+    height: 300px;
+	margin-top: -208.5px; /* jumatate height */
+    margin-left: -375px; /* jumatate width */
+}
+
+/*customizare meniu*/
+.content{
+	display:inline-block;
+    text-align:center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+/*canvas transparent astfel incat sa fie vizibile formele desenate pe background colorat*/
+#tempCanvas{
+    position: absolute;
+    margin:auto;
+    top: 0;
+    left:0;
+    background-color: transparent;
+}
+
+/*customizare butoane de culoare*/
+.colorsButtons button{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e7e7e7;
+}
+
+/*customizare butoane pt tool-uri*/
+.shapes button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e6e6e6;
+    margin-bottom: 5px;
+}
+
+.shapes button:hover {background-color: #e6e6e6;}

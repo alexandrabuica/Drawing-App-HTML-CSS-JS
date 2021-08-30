@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplicatie Paint</title>
+        <link rel="stylesheet" href="1_1077_BUICA_ELENA_ALEXANDRA.css">
+
+    </head>
+    <body>
+        <div class="menu">
+            <div class="content">
+            <!-- container pt butoanele de culoare a background-ului -->
+            <div class="colorsButtons">
+                <button style="background-color: red;" value="red"></button>
+                <button style="background-color: blue;" value="blue"></button>
+                <button style="background-color: green;" value="green"></button>
+                <button style="background-color: violet;" value="violet"></button>
+                <button style="background-color: orange;" value="orange"></button>
+                <button style="background-color: maroon;" value="maroon"></button>
+                <button style="background-color: yellow;" value="yellow"></button>
+                <button style="background-color: black;" value="black"></button>
+                <button style="background-color: magenta;" value="magenta"></button>
+                <button style="background-color: navy;" value="navy"></button>
+                <button style="background-color: olive;" value="olive"></button>
+                <button style="background-color: gray;" value="gray"></button>
+                <button style="background-color: aqua;" value="aqua"></button>
+                <button style="background-color: tomato;" value="tomato"></button>
+                <button style="background-color: lime;" value="lime"></button>
+                <button style="background-color: dodgerBlue;" value="dodgerBlue"></button>
+                <button style="background-color: coral;" value="coral"></button>
+                <button style="background-color: teal;" value="teal"></button>
+                <button style="background-color: orangered;" value="orangered"></button>
+                <button style="background-color: seagreen;" value="seagreen"></button>
+                <button style="background-color: crimson;" value="crimson"></button>
+            </div>
+            <!-- container pt tool-uri -->
+            <div class="shapes">
+                <button id="btnPen">Pen</button>
+                <button id="btnLine">Line</button>
+                <button id="btnRect">Rectangle</button>
+                <button id="btnCircle">Circle</button>
+                <button id="btnEllipse">Ellipse</button>
+                <button id="btnSave">Save</button>
+            </div>
+
+            <form>
+            Brush size: <input id="brushSize" type="number" min="1" max="30" value="1">
+            Brush color: <input id="strokeColorShape" type="color" value="#000000"/>
+            </form>  
+        
+            </div>
+        </div>
+        <!-- container pt cele doua canvas-uri -->
+        <div class="container">
+            <canvas id="mainCanvas" style="border: 2px solid black" width="800" height="600"></canvas>
+            <canvas id="tempCanvas"  style="border: 2px solid black" width="800" height="600"></canvas>
+        </div>
+            <script src="1_1077_BUICA_ELENA_ALEXANDRA.js"></script>
+    </body>
+</html>
